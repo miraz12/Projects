@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="loadShaders.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="myWindow.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="RTSCamera.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeGenerators.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Text2D.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityStates.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDispatcher.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaggySearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedPriorityQLow.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinder.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="Scout.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Kilner.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsLoader.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderBase.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameHandler.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="loadShaders.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="myWindow.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSCamera.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="shapeGenerators.hpp">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Text2D.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Telegram.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStates.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Locations.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDispatcher.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaggySearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="SparseGraph.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphEdge.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedPriorityQLow.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="NavEdge.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="NavNode.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="tileType.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="Scout.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Kilner.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingEntity.h">
+      <Filter>Header Files\Autonomus</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehavior.h">
+      <Filter>Header Files\Autonomus</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsLoader.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderBase.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="TextFragmentShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="TextVertexShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7079adec-f620-47b6-aa5f-7fc23ba0a180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5df386d3-7e84-44ca-b4d5-372b1a22b75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{714b49c2-f607-4544-be4c-d5cf52498225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5e500dba-2296-4778-838a-d4daf8d36e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SM4K">
+      <UniqueIdentifier>{bc2f1e73-ca5f-4e9e-a3f3-f382e76208e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SM4K">
+      <UniqueIdentifier>{f02cb60b-5a77-4214-aa24-f4d5c9b8f055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labb1a">
+      <UniqueIdentifier>{3b6794fa-ddca-4af9-8bf1-3f5c0714d800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labb1b">
+      <UniqueIdentifier>{70781088-6bd7-4044-a5b7-d45473a2c139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Labb1a">
+      <UniqueIdentifier>{efb95ad9-ce58-406c-acb8-5798d76a5251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Labb1b">
+      <UniqueIdentifier>{1e5c864d-e3d3-4381-92fe-b0710d270288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Autonomus">
+      <UniqueIdentifier>{7be756fa-660a-4ebe-83b4-e874066edc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Autonomus">
+      <UniqueIdentifier>{7d4845af-3f24-44bc-9ee1-baee08c8fc0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

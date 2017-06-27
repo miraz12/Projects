@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b41ba5dc-d70f-4cd6-b005-35b6f88b8840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labb1b">
+      <UniqueIdentifier>{91276156-d511-48f0-ab6e-c2a3b73a3817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Labb1b">
+      <UniqueIdentifier>{59f68bc2-279b-48c7-990f-5ecfca485108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Labb1a">
+      <UniqueIdentifier>{2d74215e-f3db-4a1a-abc2-4c55a7a017b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Labb1a">
+      <UniqueIdentifier>{740b01ad-d08c-42b6-a579-de28be1b96d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SM4K">
+      <UniqueIdentifier>{d8936667-e085-45e4-9993-606e1d3600c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SM4K">
+      <UniqueIdentifier>{b6ee6e74-03c5-447c-9858-3a952b6924a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pathfinder.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedPriorityQLow.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaggySearch.cpp">
+      <Filter>Source Files\Labb1b</Filter>
+    </ClCompile>
+    <ClCompile Include="Workers.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDispatcher.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityStates.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Labb1a</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="loadShaders.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="myWindow.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeGenerators.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="Text2D.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Source Files\SM4K</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SparseGraph.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphNode.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphEdge.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="NavNode.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="NavEdge.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinder.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedPriorityQLow.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaggySearch.h">
+      <Filter>Header Files\Labb1b</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityStates.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Locations.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDispatcher.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Telegram.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Workers.h">
+      <Filter>Header Files\Labb1a</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="myWindow.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="shapeGenerators.hpp">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Text2D.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+    <ClInclude Include="loadShaders.h">
+      <Filter>Header Files\SM4K</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="TextFragmentShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="TextVertexShader.gsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\Map1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

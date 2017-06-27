@@ -1,0 +1,39 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/Graphics.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/Graphics.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/GraphicsNode.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/GraphicsNode.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/LightNode.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/LightNode.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/MeshResource.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/MeshResource.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/ShaderObject.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/ShaderObject.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/SoftRender.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/SoftRender.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/TextureResource.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/TextureResource.cc.o"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/main.cc" "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/CMakeFiles/KonsolLabb.dir/code/main.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GLEW_STATIC"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../engine"
+  "../exts/glew/include"
+  "../exts/glfw-3.1.1/include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/CMakeFiles/core.dir/DependInfo.cmake"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/CMakeFiles/render.dir/DependInfo.cmake"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/CMakeFiles/glew.dir/DependInfo.cmake"
+  "/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

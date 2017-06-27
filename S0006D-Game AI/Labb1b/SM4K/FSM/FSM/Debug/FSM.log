@@ -1,0 +1,36 @@
+﻿Build started 2016-02-18 14:30:55.
+     1>Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\FSM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Visual Studio\VC\bin\CL.exe /c /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\..\..\middleware\GLFW\include\\" /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\..\..\middleware\GLEW\include\\" /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\..\..\middleware\GLM\glm\glm" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AStar.cpp IndexedPriorityQLow.cpp
+         AStar.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         IndexedPriorityQLow.cpp
+       Link:
+         F:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\Debug\FSM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\..\..\middleware\GLFW\lib" /LIBPATH:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\..\..\middleware\GLEW\lib" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\Debug\FSM.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\Debug\FSM.lib" /MACHINE:X86 Debug\AStar.obj
+         Debug\BFSearch.obj
+         Debug\DFSearch.obj
+         Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\EntityStates.obj
+         Debug\IndexedPriorityQLow.obj
+         Debug\loadShaders.obj
+         Debug\main.obj
+         Debug\MessageDispatcher.obj
+         Debug\Model.obj
+         Debug\myWindow.obj
+         Debug\Object.obj
+         Debug\Pathfinder.obj
+         Debug\ShaggySearch.obj
+         Debug\shapeGenerators.obj
+         Debug\stdafx.obj
+         Debug\Text2D.obj
+         Debug\TextureLoader.obj
+         Debug\Unit.obj
+         Debug\Workers.obj
+         FSM.vcxproj -> F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\Debug\FSM.exe
+     1>Done Building Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1b\SM4K\FSM\FSM\FSM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

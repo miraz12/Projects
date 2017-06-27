@@ -1,0 +1,45 @@
+﻿Build started 2016-02-24 19:20:40.
+     1>Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\FSM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Visual Studio\VC\bin\CL.exe /c /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\..\..\middleware\GLFW\include\\" /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\..\..\middleware\GLEW\include\\" /I"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\..\..\middleware\GLM\glm\glm" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EntityManager.cpp
+         EntityManager.cpp
+     1>EntityManager.cpp(50): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>EntityManager.cpp(51): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>EntityManager.cpp(82): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>EntityManager.cpp(87): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         F:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\Release\FSM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\..\..\middleware\GLFW\lib" /LIBPATH:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\..\..\middleware\GLEW\lib" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\Release\FSM.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\Release\FSM.lib" /MACHINE:X86 /SAFESEH Release\AStar.obj
+         Release\BFSearch.obj
+         Release\Builder.obj
+         Release\DFSearch.obj
+         Release\Entity.obj
+         Release\EntityManager.obj
+         Release\EntityStates.obj
+         Release\GameHandler.obj
+         Release\IndexedPriorityQLow.obj
+         Release\Kilner.obj
+         Release\loadShaders.obj
+         Release\main.obj
+         Release\MessageDispatcher.obj
+         Release\Model.obj
+         Release\myWindow.obj
+         Release\Object.obj
+         Release\Pathfinder.obj
+         Release\RTSCamera.obj
+         Release\ShaggySearch.obj
+         Release\shapeGenerators.obj
+         Release\stdafx.obj
+         Release\Text2D.obj
+         Release\TextureLoader.obj
+         Release\Unit.obj
+         Release\Scout.obj
+         Release\Worker.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         Generating code
+         Finished generating code
+         FSM.vcxproj -> F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\Release\FSM.exe
+     1>Done Building Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb2\SM4K v3.0\FSM\FSM\FSM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.32

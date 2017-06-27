@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g   CMakeFiles/GPLabb1.dir/code/GPLabb1.cpp.o CMakeFiles/GPLabb1.dir/code/stdafx.cpp.o  -o GPLabb1 -rdynamic ../../engine/core/libcore.a ../../engine/render/librender.a ../../exts/glew/libglew.a ../../exts/glfw-3.1.1/src/libglfw3.a -lGL -lGLU -lX11 -lXxf86vm -lpthread -lXrandr -lXi -lXinerama -lXcursor 

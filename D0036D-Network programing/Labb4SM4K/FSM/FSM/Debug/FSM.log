@@ -1,0 +1,34 @@
+﻿Build started 2016-06-08 10:53:17.
+     1>Project "F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\FSM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Visual Studio\VC\bin\CL.exe /c /I"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\..\..\middleware\GLFW\include\\" /I"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\..\..\middleware\GLEW\include\\" /I"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\..\..\middleware\GLM\glm\glm" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt myWindow.cpp networklistener.cpp
+         networklistener.cpp
+         myWindow.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\middleware\glfw\include\glfw\glfw3.h(92) : see previous definition of 'APIENTRY'
+     1>f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\fsm\fsm\mywindow.cpp(269): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\fsm\fsm\mywindow.cpp(368): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\fsm\fsm\mywindow.cpp(369): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\fsm\fsm\mywindow.cpp(370): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>f:\svntest\antchr-4\d0036d-nätverk\labb4sm4k\fsm\fsm\mywindow.cpp(371): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         Generating Code...
+       Link:
+         F:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\Debug\FSM.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\..\..\middleware\GLFW\lib" /LIBPATH:"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\..\..\middleware\GLEW\lib" opengl32.lib glew32.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\Debug\FSM.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\Debug\FSM.lib" /MACHINE:X86 /NODEFAULTLIB:MSVCRT Debug\RC4.obj
+         Debug\GameHandler.obj
+         Debug\loadShaders.obj
+         Debug\main.obj
+         Debug\Model.obj
+         Debug\myWindow.obj
+         Debug\networklistener.obj
+         Debug\Object.obj
+         Debug\RTSCamera.obj
+         Debug\shapeGenerators.obj
+         Debug\Text2D.obj
+         Debug\TextureLoader.obj
+         Debug\Unit.obj
+         FSM.vcxproj -> F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\Debug\FSM.exe
+     1>Done Building Project "F:\SVNTEST\antchr-4\D0036D-Nätverk\Labb4SM4K\FSM\FSM\FSM.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.01

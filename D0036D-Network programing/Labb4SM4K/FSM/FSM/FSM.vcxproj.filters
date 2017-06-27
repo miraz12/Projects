@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameHandler.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="loadShaders.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="myWindow.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="RTSCamera.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="shapeGenerators.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="Text2D.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="networklistener.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+    <ClCompile Include="RC4.cpp">
+      <Filter>cc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameHandler.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="loadShaders.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="myWindow.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSCamera.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="shapeGenerators.hpp">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Text2D.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="networklistener.h">
+      <Filter>h</Filter>
+    </ClInclude>
+    <ClInclude Include="RC4.h">
+      <Filter>h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.gsl" />
+    <None Include="TextFragmentShader.gsl" />
+    <None Include="TextVertexShader.gsl" />
+    <None Include="vertexShader.gsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cc">
+      <UniqueIdentifier>{548b55be-1604-46e3-879c-1426b2df11f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{70d4cf9e-5a28-4296-9aaa-7bdecd3af092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿Build started 2016-05-15 12:18:07.
+     1>Project "D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Labb4NP\Labb4NP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Labb4NP.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ExampleCode.cpp Labb4NP.cpp
+         Labb4NP.cpp
+         ExampleCode.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Debug\Labb4NP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Debug\Labb4NP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Debug\Labb4NP.lib" /MACHINE:X86 Debug\Labb4NP.obj
+         Debug\ExampleCode.obj
+         Debug\stdafx.obj
+         Labb4NP.vcxproj -> D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Debug\Labb4NP.exe
+     1>Done Building Project "D:\SVEN\antchr-4\D0036D-Nätverk\Labb4NP\Labb4NP\Labb4NP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66

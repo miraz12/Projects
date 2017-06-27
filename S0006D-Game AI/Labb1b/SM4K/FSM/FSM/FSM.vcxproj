@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{028D6A7C-097B-4AD6-AF73-E500976397ED}</ProjectGuid>
+    <RootNamespace>FSM</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\middleware\GLFW\include\;$(ProjectDir)..\..\middleware\GLEW\include\;$(ProjectDir)..\..\middleware\GLM\glm\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\middleware\GLFW\lib;$(ProjectDir)..\..\middleware\GLEW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="BFSearch.cpp" />
+    <ClCompile Include="DFSearch.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="EntityStates.cpp" />
+    <ClCompile Include="IndexedPriorityQLow.cpp" />
+    <ClCompile Include="loadShaders.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MessageDispatcher.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="myWindow.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Pathfinder.cpp" />
+    <ClCompile Include="ShaggySearch.cpp" />
+    <ClCompile Include="shapeGenerators.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Text2D.cpp" />
+    <ClCompile Include="TextureLoader.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="Workers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="BFSearch.h" />
+    <ClInclude Include="DFSearch.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityManager.h" />
+    <ClInclude Include="EntityStates.h" />
+    <ClInclude Include="flags.h" />
+    <ClInclude Include="GraphEdge.h" />
+    <ClInclude Include="GraphNode.h" />
+    <ClInclude Include="IndexedPriorityQLow.h" />
+    <ClInclude Include="loadShaders.h" />
+    <ClInclude Include="Locations.h" />
+    <ClInclude Include="MessageDispatcher.h" />
+    <ClInclude Include="MessageTypes.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="myWindow.h" />
+    <ClInclude Include="NavEdge.h" />
+    <ClInclude Include="NavNode.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Pathfinder.h" />
+    <ClInclude Include="ShaggySearch.h" />
+    <ClInclude Include="shapeGenerators.hpp" />
+    <ClInclude Include="SparseGraph.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Telegram.h" />
+    <ClInclude Include="Text2D.h" />
+    <ClInclude Include="TextureLoader.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="Workers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.gsl" />
+    <None Include="TextFragmentShader.gsl" />
+    <None Include="TextVertexShader.gsl" />
+    <None Include="vertexShader.gsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Debug\Map1.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

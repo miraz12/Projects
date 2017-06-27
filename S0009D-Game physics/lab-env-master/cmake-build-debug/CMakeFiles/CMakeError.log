@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55347/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55347.dir/build.make CMakeFiles/cmTC_55347.dir/build
+make[1]: Entering directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55347.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_55347.dir/CheckSymbolExists.c.o   -c /home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_55347
+/home/antchr-4/clion-2016.2.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55347.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_55347.dir/CheckSymbolExists.c.o  -o cmTC_55347 -rdynamic 
+CMakeFiles/cmTC_55347.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55347.dir/build.make:97: recipe for target 'cmTC_55347' failed
+make[1]: *** [cmTC_55347] Error 1
+make[1]: Leaving directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55347/fast' failed
+make: *** [cmTC_55347/fast] Error 2
+
+File /home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0488/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0488.dir/build.make CMakeFiles/cmTC_a0488.dir/build
+make[1]: Entering directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0488.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a0488.dir/CheckFunctionExists.c.o   -c /home/antchr-4/clion-2016.2.1/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0488
+/home/antchr-4/clion-2016.2.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0488.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a0488.dir/CheckFunctionExists.c.o  -o cmTC_a0488 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a0488.dir/build.make:97: recipe for target 'cmTC_a0488' failed
+make[1]: *** [cmTC_a0488] Error 1
+make[1]: Leaving directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a0488/fast' failed
+make: *** [cmTC_a0488/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a866e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a866e.dir/build.make CMakeFiles/cmTC_a866e.dir/build
+make[1]: Entering directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a866e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_a866e.dir/CheckFunctionExists.c.o   -c /home/antchr-4/clion-2016.2.1/bin/cmake/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a866e
+/home/antchr-4/clion-2016.2.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a866e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    CMakeFiles/cmTC_a866e.dir/CheckFunctionExists.c.o  -o cmTC_a866e -rdynamic /usr/lib/x86_64-linux-gnu/libGL.so 
+CMakeFiles/cmTC_a866e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a866e.dir/build.make:98: recipe for target 'cmTC_a866e' failed
+make[1]: *** [cmTC_a866e] Error 1
+make[1]: Leaving directory '/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a866e/fast' failed
+make: *** [cmTC_a866e/fast] Error 2
+
+

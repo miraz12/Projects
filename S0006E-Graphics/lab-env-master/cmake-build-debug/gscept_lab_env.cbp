@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gscept_lab_env"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\exts\;CMake Files\exts\glfw-3.1.1\;CMake Files\exts\glfw-3.1.1\src\;CMake Files\exts\glew\;CMake Files\projects\;CMake Files\projects\GPLabb1\;CMake Files\projects\GrafikLabb\;CMake Files\projects\KonsolLabb\;CMake Files\projects\Labb2\;CMake Files\projects\example\;CMake Files\engine\;CMake Files\engine\core\;CMake Files\engine\render\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 glew"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glew/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/libglew.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 glew/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glew/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/librender.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 render"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="render/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/librender.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 render/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/engine/render/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GPLabb1">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/GPLabb1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 GPLabb1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GPLabb1/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/GPLabb1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 GPLabb1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GPLabb1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrafikLabb">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/GrafikLabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 GrafikLabb"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GrafikLabb/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/GrafikLabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 GrafikLabb/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/GrafikLabb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KonsolLabb">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/KonsolLabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 KonsolLabb"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KonsolLabb/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/KonsolLabb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 KonsolLabb/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/KonsolLabb/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labb2">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Labb2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 Labb2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labb2/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Labb2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 Labb2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/Labb2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 example"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 example/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/projects/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/cmake-build-debug/exts/glfw-3.1.1/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/config.cc">
+			<Option target="core"/>
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/config.h">
+			<Option target="core"/>
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/core/app.cc">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/core/app.h">
+			<Option target="core"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/render/window.cc">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/render/window.h">
+			<Option target="render"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include/GL/glew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include/GL/glxew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/include/GL/wglew.h">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/src/glew.c">
+			<Option target="glew"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/posix_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/posix_tls.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/GPLabb1.cpp">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/matrix3D.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/matrix4D.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/stdafx.cpp">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/stdafx.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/targetver.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/vector3D.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/code/vector4D.h">
+			<Option target="GPLabb1"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimClip.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimClip.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimCurve.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimCurve.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimKeyBuffer.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimKeyBuffer.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimResource.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/AnimResource.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/Graphics.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/Graphics.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/GraphicsNode.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/GraphicsNode.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/JointsStructure.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/JointsStructure.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/LightNode.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/LightNode.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/MeshResource.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/MeshResource.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/NAXLoader.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/NAXLoader.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/Nvx2Loader.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/Nvx2Loader.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/PrimitiveGroup.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/ShaderObject.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/ShaderObject.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/SoftRender.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/SoftRender.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/TextureResource.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/TextureResource.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/VertexComponent.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/XmlLoader.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/XmlLoader.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/code/main.cc">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/tinyxml2/tinyxml2.cpp">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/tinyxml2/tinyxml2.h">
+			<Option target="GrafikLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/Graphics.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/Graphics.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/GraphicsNode.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/GraphicsNode.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/LightNode.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/LightNode.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/MeshResource.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/MeshResource.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/ShaderObject.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/ShaderObject.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/SoftRender.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/SoftRender.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/TextureResource.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/TextureResource.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/main.cc">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/matrix3D.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/matrix4D.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/stb_image.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/targetver.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/vector3D.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/code/vector4D.h">
+			<Option target="KonsolLabb"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/Graphics.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/Graphics.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/GraphicsNode.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/GraphicsNode.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/LightNode.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/LightNode.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/MeshResource.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/MeshResource.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/ShaderObject.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/ShaderObject.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/SoftRender.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/SoftRender.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/TextureResource.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/TextureResource.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/main.cc">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/matrix3D.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/matrix4D.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/stb_image.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/targetver.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/vector3D.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/code/vector4D.h">
+			<Option target="Labb2"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/example/code/exampleapp.cc">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/example/code/exampleapp.h">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/example/code/main.cc">
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\GPLabb1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GPLabb1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\GPLabb1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\GrafikLabb\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/GrafikLabb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\GrafikLabb\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\KonsolLabb\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/KonsolLabb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\KonsolLabb\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\Labb2\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/Labb2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\Labb2\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\core\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0006E-Grafik/lab-env-master/engine/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\render\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

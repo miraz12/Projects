@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\exts\;CMake Files\exts\glfw-3.1.1\;CMake Files\exts\glfw-3.1.1\src\;CMake Files\exts\glew\;CMake Files\projects\;CMake Files\projects\ImGuiExample\;CMake Files\projects\example\;CMake Files\projects\lab\;CMake Files\engine\;CMake Files\engine\core\;CMake Files\engine\render\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/bin/lab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/bin&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/imgui"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/imgui/examples/opengl3_example"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/nanovg/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 lab"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab/fast">
+				<Option output="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/bin/lab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="$&lt;$&lt;CONFIG:Debug&gt;:/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/bin&gt;"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/engine"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glew/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/include"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/imgui"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/imgui/examples/opengl3_example"/>
+					<Add directory="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/nanovg/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 lab/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/cmake-build-debug/projects/lab/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/AABB.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/AABB.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/GraphicsNode.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/GraphicsNode.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/LightNode.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/LightNode.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/MeshResource.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/MeshResource.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/ShaderObject.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/ShaderObject.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/TextureResource.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/TextureResource.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/collisionhandler.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/collisionhandler.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/exampleapp.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/exampleapp.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/main.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/matrix3D.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/matrix4D.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/particlesystem.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/particlesystem.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/physicsnode.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/physicsnode.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/plane.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/plane.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/ray.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/ray.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/simplex.cc">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/simplex.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/vector3D.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/code/vector4D.h">
+			<Option target="lab"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glfw-3.1.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glfw-3.1.1\src\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/exts/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\exts\glew\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/ImGuiExample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\ImGuiExample\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/ImGuiExample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\ImGuiExample\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\example\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\lab\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/projects/lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\lab\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/engine/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\core\"/>
+		</Unit>
+		<Unit filename="/home/antchr-4/SVN/antchr-4/S0009D-SpelFysik/lab-env-master/engine/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\engine\render\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

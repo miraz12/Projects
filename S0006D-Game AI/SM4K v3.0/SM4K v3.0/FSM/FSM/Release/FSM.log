@@ -1,0 +1,44 @@
+﻿Build started 2017-06-27 17:10:40.
+     1>Project "E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\FSM\FSM\FSM.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\FSM\FSM\..\..\middleware\GLFW\include\\" /I"E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\FSM\FSM\..\..\middleware\GLEW\include\\" /I"E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\FSM\FSM\..\..\middleware\GLM\glm\glm" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\AStar.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\BFSearch.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\DFSearch.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\IndexedPriorityQLow.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\NavEdge.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\Pathfinder.cpp" "..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\ShaggySearch.cpp" GameHandler.cpp loadShaders.cpp main.cpp Model.cpp myWindow.cpp Object.cpp RTSCamera.cpp shapeGenerators.cpp Text2D.cpp TextureLoader.cpp Unit.cpp
+         AStar.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\AStar.cpp': No such file or directory
+         BFSearch.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\BFSearch.cpp': No such file or directory
+         DFSearch.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\DFSearch.cpp': No such file or directory
+         IndexedPriorityQLow.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\IndexedPriorityQLow.cpp': No such file or directory
+         NavEdge.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\NavEdge.cpp': No such file or directory
+         Pathfinder.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\Pathfinder.cpp': No such file or directory
+         ShaggySearch.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\antchr-4_lab1\SM4K\FSM\FSM\ShaggySearch.cpp': No such file or directory
+         GameHandler.cpp
+         loadShaders.cpp
+         main.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\middleware\GLFW\include\GLFW\glfw3.h(92) : see previous definition of 'APIENTRY'
+         Model.cpp
+         myWindow.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\middleware\GLFW\include\GLFW\glfw3.h(92) : see previous definition of 'APIENTRY'
+     1>myWindow.cpp(98): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>myWindow.cpp(110): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>myWindow.cpp(117): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>myWindow.cpp(124): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>myWindow.cpp(131): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>myWindow.cpp(138): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         Object.cpp
+         RTSCamera.cpp
+         shapeGenerators.cpp
+         Text2D.cpp
+         TextureLoader.cpp
+         Unit.cpp
+     1>Done Building Project "E:\SVN.GIT\Projects\S0006D-Game AI\SM4K v3.0\SM4K v3.0\FSM\FSM\FSM.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.13

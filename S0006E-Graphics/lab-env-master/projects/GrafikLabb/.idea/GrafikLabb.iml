@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimCurve.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/JointsStructure.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/main.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/SoftRender.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/NAXLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Nvx2Loader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/JointsStructure.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimKeyBuffer.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/GraphicsNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/MeshResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/PrimitiveGroup.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimResource.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/GraphicsNode.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Graphics.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimKeyBuffer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ShaderObject.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/SoftRender.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/LightNode.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/NAXLoader.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/XmlLoader.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/TextureResource.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimClip.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/ShaderObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/VertexComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/MeshResource.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Graphics.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/LightNode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/TextureResource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/Nvx2Loader.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimCurve.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/AnimClip.cc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/code/XmlLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tinyxml2/tinyxml2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tinyxml2/tinyxml2.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -1,0 +1,29 @@
+﻿Build started 2016-02-17 17:45:01.
+     1>Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Labb1a\Labb1a.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Labb1a.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Entity.cpp EntityStates.cpp Workers.cpp
+         Workers.cpp
+         EntityStates.cpp
+         Entity.cpp
+         Generating Code...
+         F:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Labb1a.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EntityManager.cpp Labb1a.cpp MessageDispatcher.cpp
+         MessageDispatcher.cpp
+         Labb1a.cpp
+         EntityManager.cpp
+         Generating Code...
+       Link:
+         F:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Debug\Labb1a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Debug\Labb1a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Debug\Labb1a.lib" /MACHINE:X86 Debug\Entity.obj
+         Debug\EntityManager.obj
+         Debug\EntityStates.obj
+         Debug\Labb1a.obj
+         Debug\MessageDispatcher.obj
+         Debug\stdafx.obj
+         Debug\Workers.obj
+         Labb1a.vcxproj -> F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Debug\Labb1a.exe
+     1>Done Building Project "F:\SVNTEST\antchr-4\S0006D-Spel AI\Labb1a\Labb1a\Labb1a.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.19
