@@ -1,12 +1,9 @@
 #include "AStar.h"
 
-
-int FindPath(const int nStartX, const int nStartY, const int nTargetX, const int nTargetY, const unsigned char* pMap,
-	const int nMapWidth, const int nMapHeight, int* pOutBuffer, const int nOutBufferSize)
-{
-
-}
-
+//#include "ParadoxPath.h"
+#include "pathfinder.h"
+#include <thread>
+#include "ParadoxPath.h"
 
 int main()
 {
@@ -18,7 +15,15 @@ int main()
 							 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
 	int pOutBuffer[120];
 
-	AStar* a = new AStar(0, 0, 9, 9, pMap, h, w, pOutBuffer, 120);
+
+    std::thread t1(FindPath, 0, 0, 9, 9, pMap, h, w, pOutBuffer, 120);
+    std::thread t2(FindPath, 0, 0, 9, 9, pMap, h, w, pOutBuffer, 120);
+    std::thread t3(FindPath, 0, 0, 9, 9, pMap, h, w, pOutBuffer, 120);
+
+    t1.join();
+    t2.join();
+    t3.join();
+
+    //AStar* a = new AStar(0, 0, 9, 9, pMap, h, w, pOutBuffer, 120);
+
 }
-
-
